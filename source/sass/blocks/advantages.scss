@@ -1,0 +1,88 @@
+.advantages {
+  width: 290px;
+  padding-top: 25px;  
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  outline: 1px solid green;
+}
+
+.advantages__text {
+  padding: 0;
+  margin: 0;
+  margin-top: -2px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  
+  span {
+    font-family: "Arsenalbold";
+  }
+}
+
+.advantages__text-main {
+  display: block;
+  font-size: 24px;
+  color: #77af51;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.advantages__item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  line-height: 22px;
+  
+  &::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 0;
+    width: 30px;
+    height: 26px;
+    background-image: url(../img/icon-list.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages {
+    width: 810px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-right: 180px;   
+  }
+   
+  .advantages__img {
+    padding-top: 10px;
+    width: 290px;
+  }
+  
+  .advantages__wrapper {
+    width: 480px;
+  }
+  
+  .advantages__item {
+    width: 375px;
+    padding-left: 45px;
+    margin-bottom: 21px;
+  }
+  
+  .advantages__text {    
+    margin-bottom: 33px;
+    
+    span {
+      display: inline;
+    }
+  } 
+}

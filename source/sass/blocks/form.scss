@@ -1,0 +1,148 @@
+.form {
+  width: 290px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #b9b2ce;
+  border: 5px solid #ffffff;
+  border-radius: 0 45px 0 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.24);
+}
+
+.form__title {
+  font-family: "Arsenalbold";
+  margin: 0;
+  padding: 0;
+  line-height: 22px;  
+  
+  span {
+    color: #ec1c23;
+  }
+}
+
+.form__title-uppercase {
+  text-transform: uppercase;
+}
+
+.form__section {
+  text-align: left;  
+}
+
+.form__section--phone {
+  margin-bottom: 7px;
+}
+
+.form__text {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: "Arsenal";
+  color: #999999;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: inset rgba(255, 255, 255, 1) 0 -5px 0, inset rgba(242, 242, 242, 1) 0 5px 0;  
+  
+  &:hover {
+    border: 1px solid #283645;
+  }
+  
+  &:active {
+    border: 1px solid #d22856;
+    outline: none;
+  }
+  
+  &:focus {
+    border: 1px solid #d22856;
+    outline: none;
+  }
+}
+
+.form__label {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.form__section--data {
+  width: 85px;
+  margin-bottom: 15px;
+}
+
+/* .form__send {
+  width: 100%;
+  color: #fff;
+  font-family: "Arsenalbold";
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #4db24d;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: inset rgba(38, 89, 38, 1) 0 -3px 0, inset rgba(159, 213, 159, 0.9) 0 3px 0;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #77af51;
+  }
+  
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+  }
+  
+} */
+
+@media (min-width: $desktop-width) {
+  .form {
+    width: 319px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 15px;    
+    border: 10px solid #ffffff;
+    border-radius: 0 45px 0 45px;
+    justify-content: flex-start;
+  }
+  
+  .form__title {
+    margin-bottom: 15px;
+  }
+  
+  .form__section--name {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .form__section--phone {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .form__section--data {  
+    width: 87px;  
+    margin-left: 15px;
+  }
+  
+  .form__text {
+    padding-top: 11px;
+    padding-left: 15px;
+  }
+  
+  .form__send {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}

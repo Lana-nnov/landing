@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  color: #fff;
+  font-family: "Arsenalbold";
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #4db24d;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: inset rgba(38, 89, 38, 1) 0 -3px 0, inset rgba(159, 213, 159, 0.9) 0 3px 0;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #77af51;
+  }
+  
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+  }
+  
+}

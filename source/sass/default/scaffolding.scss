@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: "Arsenal", "Arial", sans-serif;
+  color: #444444;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+input,
+textarea,
+button {
+  font: inherit;
+}
